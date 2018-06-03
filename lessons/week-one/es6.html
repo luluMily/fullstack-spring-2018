@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ES6</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- <script src="main.js"></script> -->
+</head>
+<body>
+    <script>
+        // THIS
+        // const picasso = {
+        //     fullName: 'Pablo Picasso',
+        //     paintings: ['Guernica', 'Girl Before A Mirror', 'Portrait of Dorra Maar'],
+        //     whoAmI: function() {
+        //         console.log(this)
+        //     },
+        //     listPaintings: function() {
+        //         this.paintings.forEach((painting) => {
+        //             console.log(`${this.fullName} painted: ${painting}`)
+        //         })
+        //     }
+        // }
+        
+        // picasso.listPaintings()
+        // picasso.whoAmI(/*by default, this value of 'this', 'arguments')*/)
+        // 'this' is where the function is called (not used for arrow function)
+        // in arrow function, 'this' is the 
+        
+        //=====================================
+        // MAP
+        // const numbers = [1,2,3,4,5];
+        // 1.
+        /*const doubleNumbers = numbers.map(function(number) {
+            console.log(number * 2)
+            // no return and js will return undefined by default
+        })
+        console.log(doubleNumbers) // output [undefined, undefined, undefined, undefined, undefined]
+        */
+        // 2. 
+        /*const doubleNumbers = numbers.map(function (number) {
+            return number * 2
+        })
+        console.log(doubleNumbers)
+        */
+        // 3.
+        // const doubleNumbers = numbers.map((num) => {
+        //     return num * 2 // callback function
+        // });
+        // console.log(doubleNumbers)
+
+        //=====================================
+        // FILTER
+
+        // const boyBandMembers = [
+        //     { name: 'Justin Timberlake', band: 'NSYNC' },
+        //     { name: 'Nick Carter', band: 'Backstreet Boys' },
+        //     { name: 'Lance Bass', band: 'NSYNC' },
+        //     { name: 'Kevin Richardson', band: 'Backstreet Boys' },
+        //     { name: 'JC Chasez', band: 'NSYNC' },
+        //     { name: 'Joey Fatone', band: 'NSYNC' },
+        //     { name: 'Brian Littrell', band: 'Backstreet Boys' },
+        //     { name: 'Chris Kirkpatrick', band: 'NSYNC' },
+        //     { name: 'Howie Dorough', band: 'Backstreet Boys' },
+        //     { name: 'AJ MacLean', band: 'Backstreet Boys' },
+        // ];
+
+        // const bboysOnly = boyBandMembers.filter(boy => boy.band === 'Backstreet Boys')
+
+        // console.log(bboysOnly)
+        
+    </script>    
+</body>
+</html>
